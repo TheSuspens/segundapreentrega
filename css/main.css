@@ -1,0 +1,248 @@
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;  
+}
+  
+/* estilos del head */
+
+.login-button {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 14px;
+    padding: 8px 20px;
+    margin-right: 20px;
+    border-radius: 50px;    
+    text-decoration: none;
+}
+
+.img-lineage2 {
+    height: 300px;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+}
+
+main div div ul{
+    list-style:  none;
+}
+
+main{
+    background-image: url(../img/bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    text-align: center;
+    color: wheat ; 
+}
+
+iframe{
+    margin-bottom: 15px;
+}
+
+/* estilos de la home */
+
+.div-contenedor-carrousel{
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;   
+}
+
+@media screen and (max-width: 600px) {
+    .div-iframe-pvp{
+
+}
+       
+}
+
+.div-soulshot{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.img-soulshot{
+    height: 40%;
+    width: 40%;
+}
+
+.div-iframe-pvp{
+    display: flex ;
+    flex-wrap: wrap ;
+    align-items: auto;
+    display: grid table-row;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.imagen-carrousel {
+    width: 40%;
+    height: 40%;
+}
+   
+h2{ 
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: solid 1px;
+    background-color: rgb(0, 0, 0, 70%); 
+}
+
+h4 {
+    padding: 40px;
+}
+
+/* ESTILOS DE DESCRIPCION */
+
+.contenedor-descripcion{
+    display: flex;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 40px;
+}
+
+.info-rates{
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 50%);
+    
+/* MQ de descripcion */
+}
+@media screen and (max-width: 600px) {
+    .contenedor-descripcion{
+        display: inline-block;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 10px;
+    }
+    h3{
+        border: 10px;
+    }
+    
+}
+    
+h3 {
+    margin: 28px;
+    display: inline-block;
+    background-color: rgb(0, 0, 0, 70%);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+/* ESTILOS DE REGISTRO */
+
+main h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    border: 1px solid
+}
+.form-register{
+    width: 400px;
+    background-color: rgb(0, 0, 0, 80%);
+    padding: 38px;
+    margin: auto;
+    margin-top: 4px;
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    box-shadow: 7px 13px 37px black;
+    
+
+}
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.input-register{
+    width: 100%;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+}
+.form-register a{
+     color: whitesmoke;
+     text-decoration: none;
+}
+.form-register a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+    
+
+}
+.form-register botons{
+    width: 100%;
+    background-color: blue;
+    border: none;
+    padding: 12px;
+    color: whitesmoke;
+    margin: 16px 0;
+    font-size: 16px;
+    
+}
+
+
+
+/* ESTILOS DE CONTACTO */
+
+.wpp {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+/* ESTILOS DE DESCARGA */
+
+.div-padre-contenedor{
+    display: flex;
+    align-items: center center;
+    gap: 20px;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+.contenedor-descarga{
+    border: solid 2px black;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: rgb(0, 0, 0, 80% );
+    margin: 20px ;
+    padding: 20px;
+    
+}
+.contenedor-descarga ul li {
+    list-style: none;
+}
