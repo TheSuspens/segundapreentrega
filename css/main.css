@@ -65,13 +65,17 @@ iframe{
     grid-template-columns: auto;   
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
     .div-iframe-pvp{
-
+        height: 80px;
+        color: whitesmoke;
+        font-size: 14px;
+        border: solid black;
+        height: 40%;
+        width: 40%;     
+    }      
 }
-       
-}
-
+      
 .div-soulshot{
     display: flex;
     align-items: center;
@@ -196,10 +200,9 @@ main h3 {
 }
 .form-register a:hover{
     color: whitesmoke;
-    text-decoration: underline;
-    
-
+    text-decoration: underline;  
 }
+
 .form-register botons{
     width: 100%;
     background-color: blue;
@@ -208,10 +211,7 @@ main h3 {
     color: whitesmoke;
     margin: 16px 0;
     font-size: 16px;
-    
 }
-
-
 
 /* ESTILOS DE CONTACTO */
 
@@ -234,15 +234,12 @@ a {
     flex-wrap: wrap;
     display: inline-block;
 }
+
 .contenedor-descarga{
     border: solid 2px black;
     border-radius: 10px;
     display: inline-block;
     background-color: rgb(0, 0, 0, 80% );
     margin: 20px ;
-    padding: 20px;
-    
-}
-.contenedor-descarga ul li {
-    list-style: none;
+    padding: 20px; 
 }
